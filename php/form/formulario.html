@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <title>Formulario com php</title>
+    </head>
+    <body>
+        <form action="recebe_dados.php">
+            <p>O que achou do site?</p>
+            <input type="radio" name="avaliacao" value="muitobom" checked>Muito bom
+            <input type="radio" name="avaliacao" value="bom" checked>Bom
+            <input type="radio" name="avaliacao" value="regular" checked>Regular
+            <input type="radio" name="avaliacao" value="ruim" checked>Ruim
+            <input type="radio" name="avaliacao" value="lixo" checked>Lixo
+
+            <p>Qual a seção que você mais gostou?</p>
+            <select name="secao" size="1">
+                <option value="emcartaz">Em cartaz</option>
+                <option value="trilhasonora">Trilha sonora</option>
+                <option value="galeriadefotos">Galeria de fotos</option>
+                <option value="bilheteria">Bilheteria</option>
+                <option value="outra">Outra</option>
+            </select>
+        </form>
+    </body>
+</html>
